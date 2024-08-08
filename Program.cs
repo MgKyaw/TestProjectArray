@@ -6,3 +6,5 @@ foreach (int item in inventory)
 {
     sum += item;
 }
+
+Console.WriteLine($"We have {sum} items in inventory.");
