@@ -2,7 +2,7 @@
 
 int sum = 0;
 
-foreach (int items in inventory)
+foreach (int item in inventory)
 {
-
+    sum += item;
 }
