@@ -7,6 +7,7 @@ foreach (int item in inventory)
 {
     sum += item;
     bin++;
+    Console.WriteLine($"Bin {bin} = {item} items (Running total: {sum})");
 }
 
 Console.WriteLine($"We have {sum} items in inventory.");
